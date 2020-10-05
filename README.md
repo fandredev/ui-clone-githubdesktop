@@ -22,7 +22,7 @@ Typescript e Sass.
 
 ### Deploy
 
-A aplicação poderá ser acessada aqui: https://portfolio.flubygit.vercel.app/
+A aplicação poderá ser acessada aqui: https://githubdesktop.vercel.app/
 
 ### Web Preview
 ![darkMode](https://user-images.githubusercontent.com/49297012/95034002-7dc73380-0696-11eb-9b45-20d15e34b539.png)
@@ -61,3 +61,4 @@ yarn run dev ou npm run dev
 E-mail: profissioanalf.andre@gmail.com<br>
 Linkedin: https://www.linkedin.com/in/devfandre/<br>
 Discord: ...this
+Portfólio: https://portfolio-fandredev.vercel.app/
