@@ -1,0 +1,49 @@
+@charset 'utf-8';
+@import '../../globals/mixins.scss';
+@import '../../globals/variables.scss';
+
+header {
+  @include fullCenter;
+  font-family: $default-font;
+    img {
+      width: 30%;
+      margin: 3rem auto 2rem auto;
+      cursor: pointer;
+
+    @media (min-width: $tablet-sm) {
+      width: 8%;
+    }
+
+  }
+  > ol {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 100%;
+
+    @media (min-width: $tel-lg) and (max-width: 700px) {
+      justify-content: center;
+    }
+    @media (min-width: $tablet-sm) and (max-width: $computer) {
+      width: 46%;
+    }
+    @media (min-width: 1001px){
+      width: 30%;
+    }
+    > li {
+      color: $primary;
+      cursor: pointer;
+
+      &:first-child {
+        color: $lighten;
+      }
+      &:hover{
+        text-decoration: underline;
+      }
+
+      @media (min-width: $tel-lg) and (max-width: 700px) {
+        margin-right: 3rem;
+      }
+    }
+  }
+}

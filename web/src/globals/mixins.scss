@@ -1,0 +1,8 @@
+@charset 'utf-8';
+
+@mixin fullCenter {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-flow: column wrap;
+}

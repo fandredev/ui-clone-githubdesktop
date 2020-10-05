@@ -1,0 +1,70 @@
+@charset 'utf-8';
+@import '../../globals/mixins.scss';
+@import '../../globals/variables.scss';
+
+
+section[id="section"] {
+  @include fullCenter;
+  text-align: center;
+  font-family: $default-font;
+  padding: 2rem;
+  @media (min-width: $tel-lg) and (max-width: 700px) {
+    padding: 6rem;
+  }
+   @media (min-width: 1001px) {
+    padding: 15rem;
+  }
+  > aside {
+    @media (min-width: $tablet-sm){
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      align-items: center;
+      justify-items: center;
+      gap: 1rem;
+    }
+    @media (min-width: 1001px) {
+      margin-top: 5rem;
+    }
+    > img {
+      width: 100%;
+      &[id="pr"] {
+        order: 1;
+      }
+      &[id="code"], &[id="commit"] {
+        order: -1;
+      }
+      @media (min-width: 1001px){
+        width: 90%;
+      }
+    }
+  }
+
+  p {
+    line-height: 2.5rem;
+    @media (min-width: $tablet-sm) and (max-width: $computer) {
+     line-height: 3rem;
+    }
+    @media (min-width: 1001px) {
+        padding: 0 3rem;
+        text-align: left;
+    }
+    > span {
+      color: $primary;
+      &:hover{
+        cursor: pointer;
+        text-decoration: underline;
+      }
+    }
+
+    > h3 {
+      color: #fff;
+      padding: 2rem;
+      line-height: 3rem;
+      @media (min-width: 1001px){
+        text-align: left;
+        line-height: 3rem;
+        padding: 0;
+      }
+    }
+  }
+}

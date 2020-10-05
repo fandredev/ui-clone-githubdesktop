@@ -1,0 +1,12 @@
+@charset 'utf-8';
+@import '../../globals/variables.scss';
+
+
+div {
+  background-image: url('../../assets/images/bg.svg'),linear-gradient(#191c20, $secondary 15%);
+  background-color: $secondary;
+  background-position: center 0, 0 0, 0 0;
+  color: $lighten;
+  height: 100%;
+  width: 100%;
+}
