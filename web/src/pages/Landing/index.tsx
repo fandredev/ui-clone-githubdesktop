@@ -5,10 +5,9 @@ import Section from '../../components/Section';
 import About from '../../components/About';
 import Footer from '../../components/Footer';
 
-import './styles.scss'
+import './styles.scss';
 
-
-function App() : JSX.Element {
+function App(): JSX.Element {
   return (
     <div>
       <Header />
