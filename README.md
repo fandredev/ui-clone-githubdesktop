@@ -58,7 +58,7 @@ yarn run dev ou npm run dev
 5. Tudo ok! Abra a página no navegador com o seguinte endereço: http://localhost:3000
 
 ## :mailbox_with_no_mail: Contatos
-E-mail: profissioanalf.andre@gmail.com<br>
+E-mail: profissionalf.andre@gmail.com<br>
 Linkedin: https://www.linkedin.com/in/devfandre/<br>
 Discord: ...this<br>
 Portfólio: https://portfolio-fandredev.vercel.app/
