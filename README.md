@@ -60,5 +60,5 @@ yarn run dev ou npm run dev
 ## :mailbox_with_no_mail: Contatos
 E-mail: profissioanalf.andre@gmail.com<br>
 Linkedin: https://www.linkedin.com/in/devfandre/<br>
-Discord: ...this
+Discord: ...this<br>
 Portfólio: https://portfolio-fandredev.vercel.app/
