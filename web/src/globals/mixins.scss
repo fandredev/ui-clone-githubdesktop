@@ -2,7 +2,6 @@
 
 @mixin fullCenter {
   display: flex;
-  align-items: center;
-  justify-content: center;
+  place-items: center;
   flex-flow: column wrap;
 }
