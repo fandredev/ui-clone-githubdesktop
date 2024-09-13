@@ -20,9 +20,11 @@ The application can be accessed here: https://githubdesktop.vercel.app/
 
 ![tablet](https://user-images.githubusercontent.com/49297012/95034038-9e8f8900-0696-11eb-980c-1d9c269e0fde.png)
 
-Note: view the versions to tools in the .tool-versions file.
 
 ## Clone this repo:
+
+#### After clone: view the versions to tools in the .tool-versions file.
+
 
 ```sh
 git clone https://github.com/flubyGit/ui-clone-githubdesktop.git
