@@ -1,11 +1,10 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
+import React, { StrictMode } from 'react';
 import Landing from './pages/Landing';
 import './globals/reset.scss';
+import { createRoot } from 'react-dom/client';
 
-ReactDOM.render(
-  <React.StrictMode>
+createRoot(document.getElementById('root')!).render(
+  <StrictMode>
     <Landing />
-  </React.StrictMode>,
-  document.getElementById('root')
+  </StrictMode>,
 );
