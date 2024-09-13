@@ -1,64 +1,59 @@
-<br />
+## Cloning the Github Desktop Interface (2020 layout)
 
-# Github Desktop Clone - Felipe André
+# Stack used
 
-
-## :checkered_flag: Índice
-
-* [Sobre](#bulb-sobre)
-* [Demo](#iphone-demo)
-  * [Deploy](#live)
-  * [Web](#web)
-  * [Mobile](#mobile)
-* [Tecnologias](#computer-tecnologias)
-* [Como utilizar](#wrench-como-utilizar)
-* [Contatos](#mailbox_with_no_mail-contatos)
-
-## :bulb: Sobre
-Clonando a interface web do Github Desktop com ReactJS,
-Typescript e Sass.
-
-## :iphone: Demo
+<img src="https://skillicons.dev/icons?i=typescript,react,yarn,git&theme=dark" alt="typescript,react,yarn,git" />
 
 ### Deploy
 
-A aplicação poderá ser acessada aqui: https://githubdesktop.vercel.app/
+The application can be accessed here: https://githubdesktop.vercel.app/
 
 ### Web Preview
+
 ![darkMode](https://user-images.githubusercontent.com/49297012/95034002-7dc73380-0696-11eb-9b45-20d15e34b539.png)
 
 ### Mobile Preview
+
 ![mobile](https://user-images.githubusercontent.com/49297012/95033897-1f01ba00-0696-11eb-997a-39acedf8aee6.png)
 
 ### Tablet Preview
+
 ![tablet](https://user-images.githubusercontent.com/49297012/95034038-9e8f8900-0696-11eb-980c-1d9c269e0fde.png)
 
 
+## Clone this repo:
 
-### :computer: Tecnologias:
-- React.JS
-- Typescript
-- Sass
+#### After clone: view the versions to tools in the .tool-versions file.
 
-### :wrench: Como Utilizar
 
-1. Clone esse repositório:
-```sh 
+```sh
 git clone https://github.com/flubyGit/ui-clone-githubdesktop.git
 ```
-2. Abra o projeto no seu editor de texto
-3. No seu terminal, instale os pacotes necessários
-```sh 
-yarn install ou npm install (você pode utilizar npm i caso queira)
-``` 
-4. Agora você pode iniciar o server
-```sh 
-yarn run dev ou npm run dev
-```
-5. Tudo ok! Abra a página no navegador com o seguinte endereço: http://localhost:3000
 
-## :mailbox_with_no_mail: Contatos
+## Go to directory
+
+```
+ cd ui-clone-githubdesktop && cd web
+```
+
+## Install dependencies
+
+```
+ yarn install
+```
+
+## Run server
+
+```
+ yarn start
+```
+
+## :mailbox_with_no_mail: Contacts
+
 E-mail: profissionalf.andre@gmail.com<br>
 Linkedin: https://www.linkedin.com/in/devfandre/<br>
-Discord: ...this<br>
-Portfólio: https://portfolio-fandredev.vercel.app/
+Portfólio: [https://portfolio-fandredev.vercel.app/](https://portfoliofelipe-andre-projects.vercel.app/)
+
+## Referencies
+
+- https://desktop.github.com/download/
